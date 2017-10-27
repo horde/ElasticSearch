@@ -16,7 +16,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.5</release>
   <api>1.0.0</api>
@@ -41,6 +41,7 @@
        <file name="search.php" role="doc" />
        <file name="status.php" role="doc" />
       </dir> <!-- /doc/Horde/ElasticSearch/examples -->
+      <file name="CHANGES" role="doc" />
      </dir> <!-- /doc/Horde/ElasticSearch -->
     </dir> <!-- /doc/Horde -->
    </dir> <!-- /doc -->
@@ -85,6 +86,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/ElasticSearch/CHANGES" />
    <install as="examples/add.php" name="doc/Horde/ElasticSearch/examples/add.php" />
    <install as="examples/count.php" name="doc/Horde/ElasticSearch/examples/count.php" />
    <install as="examples/get.php" name="doc/Horde/ElasticSearch/examples/get.php" />
@@ -200,7 +202,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-17</date>
+   <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/bsd">BSD-2-Clause</license>
    <notes>
    </notes>
