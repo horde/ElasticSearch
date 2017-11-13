@@ -1,8 +1,8 @@
 {
     "name": "horde/elasticsearch",
-    "description": "Horde ElasticSearch client",
+    "description": "ElasticSearch client library",
     "type": "library",
-    "homepage": "https://pear.horde.org",
+    "homepage": "https://www.horde.org/libraries/Horde_ElasticSearch",
     "license": "BSD-2-Clause",
     "authors": [
         {
@@ -17,7 +17,7 @@
         }
     ],
     "version": "1.0.5",
-    "time": "2017-10-17",
+    "time": "2017-11-11",
     "repositories": [
         {
             "type": "pear",
