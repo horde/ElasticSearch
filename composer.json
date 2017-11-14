@@ -1,23 +1,23 @@
 {
     "name": "horde/elasticsearch",
-    "description": "Horde ElasticSearch client",
+    "description": "ElasticSearch client library",
     "type": "library",
-    "homepage": "https://pear.horde.org",
+    "homepage": "https://www.horde.org/libraries/Horde_ElasticSearch",
     "license": "BSD-2-Clause",
     "authors": [
-        {
-            "name": "Chuck Hagenbuch",
-            "email": "chuck@horde.org",
-            "role": "lead"
-        },
         {
             "name": "Jan Schneider",
             "email": "jan@horde.org",
             "role": "lead"
+        },
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org",
+            "role": "lead"
         }
     ],
     "version": "1.0.5",
-    "time": "2017-09-19",
+    "time": "2017-11-14",
     "repositories": [
         {
             "type": "pear",
