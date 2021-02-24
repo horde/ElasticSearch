@@ -34,9 +34,6 @@
     "autoload": {
         "psr-0": {
             "Horde_ElasticSearch": "lib/"
-        },
-        "psr-4": {
-            "Horde\\ElasticSearch\\": "src/"
         }
     }
 }
