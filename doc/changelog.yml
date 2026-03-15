@@ -9,7 +9,6 @@
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
   notes: |+
-    
 2.0.0alpha3:
   api: 2.0.0alpha1
   state:
@@ -40,6 +39,19 @@
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
   notes: ~
+2.0.0-beta1:
+  api: 2.0.0-beta1
+  state:
+    release: beta
+    api: beta
+  date: 2026-03-15
+  license:
+    identifier: BSD-2-Clause
+    uri: https://spdx.org/licenses/BSD-2-Clause.html
+  notes: |-
+    style: Apply current php-cs-fixer rules
+    Add CI job for satis repo update
+    Development mode for ElasticSearch-2.0.0alpha5
 1.0.4:
   api: 1.0.0
   state:
@@ -84,17 +96,6 @@
     uri: http://www.horde.org/licenses/bsd
   notes: |
     [mms] Use new Horde_Test layout.
-1.0.0:
-  api: 1.0.0
-  state:
-    release: stable
-    api: stable
-  date: 2012-10-30
-  license:
-    identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: |
-    First stable release for Horde 5.
 1.0.0beta2:
   api: 1.0.0beta1
   state:
@@ -117,3 +118,14 @@
     uri: http://www.horde.org/licenses/bsd
   notes: |
     First beta release for Horde 5.
+1.0.0:
+  api: 1.0.0
+  state:
+    release: stable
+    api: stable
+  date: 2012-10-30
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: |
+    First stable release for Horde 5.
