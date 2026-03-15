@@ -1,6 +1,7 @@
 <?php
+
 /**
- * Copyright 2011-2017 Horde LLC (http://www.horde.org/)
+ * Copyright 2011-2026 Horde LLC (http://www.horde.org/)
  *
  * See the enclosed file LICENSE for license information (BSD). If you
  * did not receive this file, see http://www.horde.org/licenses/bsd.
@@ -44,7 +45,7 @@ class Horde_ElasticSearch_Client
      */
     public function search($index, $type, $q)
     {
-        return $this->_request($this->_path($index, $type, '_search') . '?' . http_build_query(array('q' => $q)));
+        return $this->_request($this->_path($index, $type, '_search') . '?' . http_build_query(['q' => $q]));
     }
 
     /**
@@ -79,7 +80,7 @@ class Horde_ElasticSearch_Client
         return $this->_request($this->_path($index, $type, '_mapping'), 'PUT', $data);
     }
 
-    protected function _request($path, $method = 'GET', $data = null, $headers = array())
+    protected function _request($path, $method = 'GET', $data = null, $headers = [])
     {
         try {
             $result = $this->_httpClient->request($method, $this->_server . $path, $data, $headers);
@@ -92,7 +93,9 @@ class Horde_ElasticSearch_Client
     protected function _path()
     {
         $path = array_filter(func_get_args());
-        foreach ($path as &$element) { $element = urlencode($element); }
+        foreach ($path as &$element) {
+            $element = urlencode($element);
+        }
         return implode('/', $path);
     }
 }
