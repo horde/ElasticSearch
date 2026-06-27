@@ -1,44 +1,14 @@
 ---
-2.0.0alpha4:
-  api: 2.0.0alpha1
-  state:
-    release: alpha
-    api: alpha
-  date: 2021-03-13
-  license:
-    identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: |+
-2.0.0alpha3:
-  api: 2.0.0alpha1
-  state:
-    release: alpha
-    api: alpha
-  date: 2021-03-13
-  license:
-    identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: |+
-2.0.0alpha2:
-  api: 2.0.0alpha1
-  state:
-    release: alpha
-    api: alpha
-  date: 2021-02-24
-  license:
-    identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: |+
-2.0.0alpha1:
-  api: 2.0.0alpha1
+2.0.0:
+  api: 2.0.0
   state:
     release: stable
     api: stable
-  date: 2021-02-24
+  date: 2026-06-27
   license:
     identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: ~
+    uri: https://spdx.org/licenses/BSD-2-Clause.html
+  notes: "chore: refresh qc fixes and platform deps\nchore: Update workflow dependency"
 2.0.0-beta1:
   api: 2.0.0-beta1
   state:
@@ -48,10 +18,47 @@
   license:
     identifier: BSD-2-Clause
     uri: https://spdx.org/licenses/BSD-2-Clause.html
-  notes: |-
-    style: Apply current php-cs-fixer rules
-    Add CI job for satis repo update
-    Development mode for ElasticSearch-2.0.0alpha5
+  notes: "style: Apply current php-cs-fixer rules\nAdd CI job for satis repo update\nDevelopment mode for ElasticSearch-2.0.0alpha5"
+2.0.0alpha4:
+  api: 2.0.0alpha1
+  state:
+    release: alpha
+    api: alpha
+  date: 2021-03-13
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: ''
+2.0.0alpha3:
+  api: 2.0.0alpha1
+  state:
+    release: alpha
+    api: alpha
+  date: 2021-03-13
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: ''
+2.0.0alpha2:
+  api: 2.0.0alpha1
+  state:
+    release: alpha
+    api: alpha
+  date: 2021-02-24
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: ''
+2.0.0alpha1:
+  api: 2.0.0alpha1
+  state:
+    release: stable
+    api: stable
+  date: 2021-02-24
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: null
 1.0.4:
   api: 1.0.0
   state:
@@ -61,8 +68,7 @@
   license:
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
-  notes: |
-    [jan] Mark PHP 7 as supported.
+  notes: "[jan] Mark PHP 7 as supported.\n"
 1.0.3:
   api: 1.0.0
   state:
@@ -72,8 +78,7 @@
   license:
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
-  notes: |
-    [jan] Add Composer definition.
+  notes: "[jan] Add Composer definition.\n"
 1.0.2:
   api: 1.0.0
   state:
@@ -83,8 +88,7 @@
   license:
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
-  notes: |
-    [rla] Add license file.
+  notes: "[rla] Add license file.\n"
 1.0.1:
   api: 1.0.0
   state:
@@ -94,30 +98,7 @@
   license:
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
-  notes: |
-    [mms] Use new Horde_Test layout.
-1.0.0beta2:
-  api: 1.0.0beta1
-  state:
-    release: beta
-    api: beta
-  date: 2012-07-22
-  license:
-    identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: |
-    [jan] Fix dependency on Horde_Http.
-1.0.0beta1:
-  api: 1.0.0beta1
-  state:
-    release: beta
-    api: beta
-  date: 2012-07-22
-  license:
-    identifier: BSD-2-Clause
-    uri: http://www.horde.org/licenses/bsd
-  notes: |
-    First beta release for Horde 5.
+  notes: "[mms] Use new Horde_Test layout.\n"
 1.0.0:
   api: 1.0.0
   state:
@@ -127,5 +108,24 @@
   license:
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
-  notes: |
-    First stable release for Horde 5.
+  notes: "First stable release for Horde 5.\n"
+1.0.0beta2:
+  api: 1.0.0beta1
+  state:
+    release: beta
+    api: beta
+  date: 2012-07-22
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: "[jan] Fix dependency on Horde_Http.\n"
+1.0.0beta1:
+  api: 1.0.0beta1
+  state:
+    release: beta
+    api: beta
+  date: 2012-07-22
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: "First beta release for Horde 5.\n"
